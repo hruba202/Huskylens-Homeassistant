@@ -5,14 +5,14 @@
 #include <ArduinoJson.h>
 
 // WiFi settings
-const char* WIFI_SSID     = "internet";
-const char* WIFI_PASSWORD = "grubbanet@hruba.202";
+const char* WIFI_SSID     = "";
+const char* WIFI_PASSWORD = "";
 
 // MQTT settings
-const char* MQTT_SERVER    = "192.168.0.141";
+const char* MQTT_SERVER    = "xxx.xxx.x.xx";
 const int   MQTT_PORT      = 1883;
-const char* MQTT_USER      = "mqttuser";
-const char* MQTT_PASSWORD  = "grubba202";
+const char* MQTT_USER      = "mqtt_user";
+const char* MQTT_PASSWORD  = "mqtt-passwd";
 const char* MQTT_CLIENT_ID = "ESP32_HuskyLens";
 const char* MQTT_TOPIC     = "huskyLens/data";
 const char* MQTT_STATUS_TOPIC = "huskyLens/status";
